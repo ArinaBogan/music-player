@@ -15,7 +15,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 300px 350px;
+  margin: 300px 325px;
   width: 540px;
   height: 169px;
   background-color: #FFFFFF;
@@ -81,6 +81,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .wrapper .mainInfo .buttons .repeatBtn {
   background-image: url(./assets/repeatBtn.svg);
@@ -88,6 +91,7 @@ body {
   background-size: contain;
   width: 24px;
   height: 24px;
+  margin-top: 27px;
 }
 .wrapper .mainInfo .buttons .prevBtn {
   background-image: url(./assets/prevBtn.svg);
@@ -95,6 +99,7 @@ body {
   background-size: contain;
   width: 35px;
   height: 35px;
+  margin-top: 22px;
 }
 .wrapper .mainInfo .buttons .playBtn {
   background-image: url(./assets/playBtn.svg);
@@ -102,6 +107,7 @@ body {
   background-size: contain;
   width: 38px;
   height: 38px;
+  margin-top: 20px;
 }
 .wrapper .mainInfo .buttons .nextBtn {
   background-image: url(./assets/nextBtn.svg);
@@ -109,6 +115,7 @@ body {
   background-size: contain;
   width: 35px;
   height: 35px;
+  margin-top: 22px;
 }
 .wrapper .mainInfo .buttons .favBtn {
   background-image: url(./assets/favBtn.svg);
@@ -116,4 +123,5 @@ body {
   background-size: contain;
   width: 21px;
   height: 21px;
+  margin-top: 27px;
 }
